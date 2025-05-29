@@ -2,7 +2,7 @@
 
 In simple terms: this design pattern helps you create "families" of related objects without specifying their exact classes.
 
-## How to think of it?
+## 🤔 How to think of it?
 
 You go to visit a furniture store and you ask that you want a set of modern style (a chair, a sofa, and a table).
 
@@ -14,7 +14,7 @@ The store now will give you:
 
 The morale story is that you don't pick each item by yourself, you just say _the style_, and the store will give you the matching items!
 
-## When do you need this pattern?
+## ⏱️ When do you need this pattern?
 
 | Scenario                                         | Example                                                                                                                                                                                                                       |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ The morale story is that you don't pick each item by yourself, you just say _the
 
 **Rule of Thumb**: Use this design pattern when you need a set of related things, and you want to be able to "swap" the entire set easily.
 
-## Code Example in Go:
+## 💻 Code Example in Go:
 
 ```
 package main

@@ -112,3 +112,10 @@ func main() {
 	FurnishRoom(VictorianFactory{})
 }
 ```
+
+---
+
+## 🏃 How to run the codebase?
+
+- Ensure your current directory is `~/golang-design-pattern/creational/factory/code`
+- Run `go run .`

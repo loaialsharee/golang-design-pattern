@@ -8,19 +8,19 @@ You go to visit a furniture store and you ask that you want a set of modern styl
 
 The store now will give you:
 
-* a "modern" chair
-* a "modern" sofa
-* a "modern" table
+- a "modern" chair
+- a "modern" sofa
+- a "modern" table
 
-The morale story is that you don't pick each item by yourself, you just say *the style*, and the store will give you the matching items!
+The morale story is that you don't pick each item by yourself, you just say _the style_, and the store will give you the matching items!
 
 ## ⏱️ When do you need this pattern?
 
-| Scenario | Example |
-| -------- | ------- |
-| 1\. Need to createfamilies of related objects | building a UI library which supports light & dark theme which helps you switch themes without mixing styles. |
-| 2\. Want to switch product families at runtime | Your app supports multiple database engines (MySQL, PostgreSQL, MongoDB) and each engine has a connection class, query class, and a result parser. This pattern will help to plug in the whole set for the selected database. |
-| 3\. Want to enforce consistency across components | In a game, you want to have different "worlds" and each workd has a character, a weapon, and an enemy. This shall ensure all components belong to the same world style. |
+| Scenario                                          | Example                                                                                                                                                                                                                       |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1\. Need to createfamilies of related objects     | building a UI library which supports light & dark theme which helps you switch themes without mixing styles.                                                                                                                  |
+| 2\. Want to switch product families at runtime    | Your app supports multiple database engines (MySQL, PostgreSQL, MongoDB) and each engine has a connection class, query class, and a result parser. This pattern will help to plug in the whole set for the selected database. |
+| 3\. Want to enforce consistency across components | In a game, you want to have different "worlds" and each workd has a character, a weapon, and an enemy. This shall ensure all components belong to the same world style.                                                       |
 
 **Rule of Thumb**: Use this design pattern when you need a set of related things, and you want to be able to "swap" the entire set easily.
 
@@ -113,9 +113,9 @@ func main() {
 }
 ```
 
-- - -
+---
 
 ## 🏃 How to run the codebase?
 
-* Ensure your current directory is `~/creational/factory/code`
-* Run `go run .`
+- Ensure your current directory is `~/creational/factory/code`
+- Run `go run .`

@@ -4,7 +4,7 @@ In simple terms: this design pattern is a structural design pattern that **decou
 
 ## 🤔 How to think of it?
 
-You havea remote control (as the abstraction) and a TV (as the implementation).
+You have a remote control (as the abstraction) and a TV (as the implementation).
 
 You can have a smart remote or a basic remote.
 Also, you can have Samsung TV, LG, etc.
